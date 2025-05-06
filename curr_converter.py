@@ -8,4 +8,4 @@ currency = input("enter the cdoe of country (USD, INR..): ").upper()
 if currency in rates:
     print(f"{amount}USD = {amount * rates[currency]} {currency}")
 else:
-    print("not avaliable right now soon....")
+    print("not avaliable right now soon....") 
