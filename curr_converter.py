@@ -6,6 +6,7 @@ rates = req.json()["rates"]
 amount = float(input("Enter the amount in USD: "))
 currency = input("enter the cdoe of country (USD, INR..): ").upper()
 #if else statement:
+
 if currency in rates:
     print(f"{amount}USD = {amount * rates[currency]} {currency}")
 else:
